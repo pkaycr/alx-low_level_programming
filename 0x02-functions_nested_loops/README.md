@@ -1,1 +1,1 @@
-new project
+0x02 functions nexted loops

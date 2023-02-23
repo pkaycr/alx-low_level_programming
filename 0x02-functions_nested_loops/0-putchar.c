@@ -1,20 +1,21 @@
-#include "main.h"
-/**
- * main-"The program prints _putchar followed by a new line"
- * File: "0-putchar.c"
- * Return: "Always 0 (Success)"
- */
+#include"main.h"
 
+/**
+ * main - Entry point
+ *
+ * Description: A program that display a message
+ *
+ * Return: Always (0) success
+ */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char str[] = "_putchar";
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
 	_putchar('\n');
 
 	return (0);
